@@ -1,0 +1,9 @@
+# IDE, OS, ...
+.vscode
+.DS_Store
+
+# MySQL data
+dev/mysql/data/*
+
+# Node
+node_modules
