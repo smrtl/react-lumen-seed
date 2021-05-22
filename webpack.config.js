@@ -25,5 +25,8 @@ module.exports = {
   devServer: {
     contentBase: outputPath,
     hot: true,
+    proxy: {
+      '/api': { target: 'http://localhost:8000' },
+    },
   },
 };

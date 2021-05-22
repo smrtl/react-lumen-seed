@@ -1,9 +1,22 @@
 # IDE, OS, ...
-.vscode
+.idea
+.vscode/*
+!.vscode/settings.json
 .DS_Store
 
 # MySQL data
 dev/mysql/data/*
+!dev/mysql/data/.gitkeep
+
+# PHP
+www/private/vendor
+www/private/Homestead.json
+www/private/Homestead.yaml
+www/private/.env
+www/private/.phpunit.result.cache
 
 # Node
 node_modules
+
+# Build product
+www/bundle.js*
