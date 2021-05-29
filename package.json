@@ -15,15 +15,29 @@
     "@babel/preset-react": "^7.13.13",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.5",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.4.0",
     "react-hot-loader": "^4.13.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^10.0.27",
+    "@hookform/resolvers": "^2.5.1",
+    "@theme-ui/presets": "^0.8.4",
+    "axios": "^0.21.1",
+    "axios-hooks": "^2.6.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "styled-components": "^5.3.0"
+    "react-hook-form": "^7.6.4",
+    "react-router-dom": "^5.2.0",
+    "theme-ui": "^0.8.4",
+    "yup": "^0.32.9"
   }
 }
